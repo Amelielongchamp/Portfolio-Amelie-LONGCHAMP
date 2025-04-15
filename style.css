@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 
 * {
     margin: 0;
@@ -19,6 +18,7 @@
 .spaceBetween {
 
     justify-content: space-between;
+    width:150px;
 }
 
 .gap20 {
@@ -59,55 +59,63 @@
     font-weight: 700;
 }
 
-/* page acceuil*/
+/* background*/
 
-.image {
-    position: absolute;
-    top: 50%;
-    left: 85%;
-    transform: translate(-50%, -50%);
-    border-radius: 8px;
+.background{
+background-color: #FCE6F0;
 }
 
-.texte {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50, -50%);
+.colorblack{
+    color: black};
 
+    .divguide {
+        position: relative;
+       top:250px;
+       margin: 0 auto;
+       text-align: center;
+       margin-top: 0px;
+    }
+
+/*header*/ 
+
+.nav{
+    text-decoration:none;
+    list-style:none
 }
 
-
-
-.Titre {
-    font-family: "Bungee Spice", sans-serif;
-    width: 65%;
+.margintop{
+margin-top:15px;
 }
 
-.none {
-    list-style: none;
-    position: absolute;
-    top: 20%;
-    left: 15%;
-    transform: translate(-50%, -50%);
-}
-
-.menu {
-    font-family: "Bebas Neue", sans-serif;
-}
-
-.margin {
-    margin-top: 20%;
-}
-
-.T15 {
-    font-size: 15px;
-}
-
-.white{
-    color: white;
-}
-
-.textdecoration{
+.bouton{
+    position: sticky;
+    height: 100vh;
+    left:80%;
+    font-family: "Italiana", sans-serif;
+    list-style:none;
     text-decoration: none;
+}
+
+/* divisiton gauche*/
+
+.image
+{
+ position:relative;
+ height: 25px; 
+ left:72px; 
+ top: -85vh; 
+}
+
+.image2{
+    position:relative;
+    height: 25px; 
+    left: 72px; 
+    top: -88vh;
+}
+
+.image3{
+    position: relative;
+    height: 20px; 
+    left:40px; 
+    top: -80vh; 
 }
