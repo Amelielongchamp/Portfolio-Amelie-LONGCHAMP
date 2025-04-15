@@ -1,7 +1,7 @@
-  
-   @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-   * {
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,80 +21,93 @@
     justify-content: space-between;
 }
 
-.gap20{
+.gap20 {
     gap: 20px;
 }
 
 .alignCenter {
 
-    align-items:center;
+    align-items: center;
 }
 
-.container {.w50 {
-    width: 50%;
-}
+.container {
+    .w50 {
+        width: 50%;
+    }
 
-.w70 {
-    width: 70%;
-}
+    .w70 {
+        width: 70%;
+    }
 
-.w25 {
-    width: 25%;
-}
+    .w25 {
+        width: 25%;
+    }
 
-.w100 {
-    width: 100%;
-}
+    .w100 {
+        width: 100%;
+    }
 
-.w48{
-    width: 48%;
-}
+    .w48 {
+        width: 48%;
+    }
 
     max-width: 1000px;
     margin: auto;
 }
 
-.bold{
-    font-weight:700;
-   }
+.bold {
+    font-weight: 700;
+}
 
-   /* page acceuil*/
-   
-   .image{
-    position:absolute;
-    top:50%;
+/* page acceuil*/
+
+.image {
+    position: absolute;
+    top: 50%;
     left: 85%;
     transform: translate(-50%, -50%);
-    border-radius:8px;
-   }
+    border-radius: 8px;
+}
 
-   .texte{
+.texte {
     position: absolute;
-    top:50%;
-    left:30%;
-    transform: translate(-50,-50%);
+    top: 50%;
+    left: 25%;
+    transform: translate(-50, -50%);
 
-   }
-   
+}
 
 
-   .Titre{
-    font-family: "Lobster", sans-serif;
-    width:80%;
-   }
 
-.none{
+.Titre {
+    font-family: "Bungee Spice", sans-serif;
+    width: 65%;
+}
+
+.none {
     list-style: none;
     position: absolute;
     top: 20%;
-    left:15%;
-    transform: translate(-50%,-50%);
+    left: 15%;
+    transform: translate(-50%, -50%);
 }
 
-.menu{
-font-family: "Bebas Neue", sans-serif;
+.menu {
+    font-family: "Bebas Neue", sans-serif;
 }
 
-.margin{
+.margin {
     margin-top: 20%;
+}
+
+.T25 {
+    font-size: 25px;
+}
+
+.white{
+    color: white;
+}
+
+.textdecoration{
+    text-decoration: none;
 }
