@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* propritété flex box */
+.flex {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+
+    justify-content: space-between;
+}
+
+.gap20{
+    gap: 20px;
+}
+
+.alignCenter {
+
+    align-items:center;
+}
+
+.container {
+
+    max-width: 1000px;
+    margin: auto;
+}
+
+.bold{
+    font-weight:700;
+   }
+
+   /* background*/
+   
+   .image{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
