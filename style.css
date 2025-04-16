@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.italica{
+    font-family: "Italiana", sans-serif;
+}
+
 
 
 /* propritété flex box */
@@ -21,6 +25,22 @@
     width:150px;
 }
 
+.margintop{
+    margin-top: 50%;
+}
+
+.margintopH1
+{
+    margin-top:60%;
+}
+.marginright{
+    margin-right:50%;
+}
+
+.marginleft{
+    margin-left: 15%;
+}
+
 .gap20 {
     gap: 20px;
 }
@@ -29,8 +49,9 @@
 
     align-items: center;
 }
-
-.container {
+.w20{
+        width: 20%;
+    }
     .w50 {
         width: 50%;
     }
@@ -43,20 +64,32 @@
         width: 25%;
     }
 
-    .w100 {
-        width: 100%;
-    }
-
+    
     .w48 {
         width: 48%;
     }
 
+    .w400{
+        width: 400%;
+    }
+
+    .height{
+        height: 50px;
+    }
+
+.container {
+
+    
     max-width: 1000px;
     margin: auto;
 }
 
 .bold {
     font-weight: 700;
+}
+
+.textalign{
+text-align: center;
 }
 
 /* background*/
@@ -75,6 +108,8 @@ background-color: #FCE6F0;
        text-align: center;
        margin-top: 0px;
     }
+
+   
 
 /*header*/ 
 
@@ -97,25 +132,107 @@ margin-top:15px;
 }
 
 /* divisiton gauche*/
-
+.stars{
+    position: relative;
+    width:150px;
+    height: 150px;
+    background-color: lightblue;
+}
 .image
 {
- position:relative;
+ position:absolute;
  height: 25px; 
- left:72px; 
- top: -85vh; 
+ left:37px; 
+ top: 85px; 
 }
 
 .image2{
-    position:relative;
+    position:absolute;
     height: 25px; 
-    left: 72px; 
-    top: -88vh;
+    left: 64px; 
+    top: 50px;
 }
 
 .image3{
-    position: relative;
+    position: absolute;
     height: 20px; 
-    left:40px; 
-    top: -80vh; 
+    left:26px; 
+    top: 48px; 
 }
+
+.pleft{
+    margin-left: 70%;
+    right:-70px;
+    top:-100px;
+}
+
+.reseau{
+    width:30%;
+    height: 22px;
+}
+
+
+
+
+/*div droite*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gauche, .droite{
+    width: 45%;
+}
+body{
+    background-color: pink;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+li{
+    list-style: none;
+}
+.droite a{
+    font-size: 64px;
+    text-transform: capitalize;
+}
+.droite a:hover{
+    font-style: italic;
+    
+}
+.droite{
+    position: relative;
+}
+.droite li{
+    padding: 16px 8px;
+    border-top: 1px solid #000;
+}
+.vignettes{
+    position: relative;
+    margin-top: 64px;
+}
+.vignette{
+    opacity: 0;
+    transition: .3s ease;
+    position:absolute;
+    width : 90%;
+    height: 250px;
+    background-color: lightcoral;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 32px;
+    height: 100vh;
+  
+}
+
+<div class="stars pleft">
