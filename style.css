@@ -15,11 +15,20 @@
     font-family: "Inter", sans-serif;
 }
 
+.texte{
+    border: solid;color:pink;
+    color: black;
+}
+
 /* propritété flex box */
 .flex {
 
     display: flex;
     flex-wrap: wrap;
+}
+
+.flex-end{
+    justify-content: flex-end;
 }
 
 .spaceBetween {
@@ -35,17 +44,15 @@
     margin-top: 50%;
 }
 
-.margintopH1 {
-    margin-top: 60%;
+.marginleft{
+    margin-left: 75%;
 }
 
 .marginright {
     margin-right: 50%;
 }
 
-.marginleft {
-    margin-left: 15%;
-}
+
 
 .gap20 {
     gap: 20px;
@@ -273,4 +280,7 @@ main {
     height: 100vh;
 
 }
+
+
+/*page 2 about me*/
 
