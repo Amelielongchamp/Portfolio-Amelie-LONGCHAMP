@@ -12,27 +12,28 @@
     <!-- Header-->
     <header class="height">
         <nav>
-            <ul class="flex spaceBetween margintop">
-                <li class="nav"><a href="">A propos</a></li>
-                <li class="nav "><a href="">Contact</a></li>
+            <ul class="flex margintop">
+                <li class="items-nav"><a href="">A propos</a></li>
+                <li class="items-nav "><a href="">Contact</a></li>
             </ul>
         </nav>
-        <img src="assets/Ellipse 1.png" alt="rond rose">
+        <img src="assets/Ellipse 1.png" alt="rond rose" class="fixed">
     </header>
 
+   <div class="flex spaceBetween">
     <!--Div gauche-->
-    <section class="flex margintop w50">
-        <div class="gauche marginright">
+    <section class=" w40 relative ">
+        <div class="gauche sticky">
             <div class="stars">
                 <img class="image" src="assets/Vector (1).png" alt=" etoiles">
                 <img class="image2" src="assets/Vector (1).png" alt="etoiles">
                 <img class="image3" src="assets/Vector (1).png" alt="etoiles">
             </div>
 
-            <div class="margintop marginleft italica ">
-                <h1 class="textalign">Amélie</h1>
+            <div class="margintop  italica ">
+                <h1 class="fontsize">Amélie</h1>
 
-                <p class="margintop textalign inter"> Bienvenue dans mon univers!
+                <p class="margintop  inter"> Bienvenue dans mon univers!
                     Moi c’est Amélie, je suis developpeuse front-end junior.
                     Je suis à la recherche d'une alternance en UX/UI design pour septembre
                     2025!
@@ -45,9 +46,8 @@
 
             </div>
 
-            <div>
-                <ul class=" flex spaceBetween bouton marginright w50 ">
-                    <img src="assets/Frame 56.png" class="reseau" alt="reseaux sociaux">
+            <div class="w70">
+                <ul class=" flex spaceBetween bouton">
                     <li><a href="">facebook</a></li>
                     <li><a href="">instagram</a></li>
                     <li><a href="">linkedin</a></li>
@@ -58,31 +58,31 @@
     </section>
 
     <!-- dive droite-->
-    <section class=" flex margintop w50">
-        <div class="droite marginleft">
+    <section class=" flex  w50">
+        <div class="droite">
             <nav>
                 <ul>
                     <li>
                         <a href="" id="p-1">projet 1</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p class="descriptif-projet">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     </li>
                     <li>
                         <a href="" id="p-2">projet 2</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p class="descriptif-projet">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     </li>
                     <li>
                         <a href="" id="p-3">projet 3</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p class="descriptif-projet">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     </li>
                     <li>
                         <a href="" id="p-4">projet 4</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p class="descriptif-projet">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     </li>
                 </ul>
             </nav>
         </div>
     </section>
-
+</div>
 
 
 
